@@ -100,4 +100,4 @@ const setup = (chromeId, firefoxStoreId, firefoxXpiId) => ({
   firefox: downloadFirefox(firefoxStoreId, firefoxXpiId)
 });
 
-export const react_devtools = () => setup('fmkadmapgofadopljbjfkapdkoienihi', 'react-devtools', '@react-devtools');
+export const REACT_DEVTOOLS = () => setup('fmkadmapgofadopljbjfkapdkoienihi', 'react-devtools', '@react-devtools');
