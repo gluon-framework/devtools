@@ -1,6 +1,6 @@
 {
   "name": "@gluon-framework/devtools",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Easily use common devtools extensions in Gluon",
   "main": "src/index.js",
   "types": "index.d.ts",
