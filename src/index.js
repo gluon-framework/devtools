@@ -101,3 +101,9 @@ const setup = (chromeId, firefoxStoreId, firefoxXpiId) => ({
 });
 
 export const REACT_DEVTOOLS = () => setup('fmkadmapgofadopljbjfkapdkoienihi', 'react-devtools', '@react-devtools');
+export const VUEJS_DEVTOOLS = () => setup('nhdogjmejiglipccpnnnanhbledajbpd', 'vue-js-devtools', '{5caff8cc-3d2e-4110-a88a-003cc85b3858}');
+export const SVELTE_DEVTOOLS = () => setup('ckolcbmkjpjmangdbmnkpjigpkddpogn', 'svelte-devtools', '{a0370179-acc3-452f-9530-246b6adb2768}');
+export const ANGULAR_DEVTOOLS = () => setup('ienfalfjdbdpebioblfackkekamfmbnh', 'angular-devtools', '{20a9bb38-ed7c-4faf-9aaf-7c5d241fd747}');
+export const PREACT_DEVTOOLS = () => setup('ilcajpmogmhpliinlbcdebhbcanbghmd', 'preact-devtools', 'devtools@marvinh.dev');
+export const REDUX_DEVTOOLS = () => setup('lmhkpmbekcpmknklioeibfkpmmfibljd', 'reduxdevtools', 'extension@redux.devtools');
+export const EMBER_INSPECTOR = () => setup('bmdblncegkenkacieihfhpjfppoconhi', 'ember-inspector', 'ember-inspector@emberjs.com');
